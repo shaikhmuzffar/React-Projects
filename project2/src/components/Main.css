@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-rows: 5fr 7fr;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* ====================== left container =================== */
+
+.leftContainer {
+    display: flex;
+}
+
+/* titleBox */
+.titleBox {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBox .smallTitle {
+    position: relative;
+    color: #FF6666;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+/* line  */
+.titleBox .smallTitle img {
+    height: 15px;
+    margin-right: 28px;
+}
+
+.titleBox .largeTitle {
+    font-size: 7em;
+    margin-bottom: 30px;
+}
+
+.titleBox .para {
+    font-size: 1rem;
+
+}
+
+/* hero */
+.leftContainer .hero {
+    flex-basis: 50%;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    margin-bottom: -25px;
+}
+
+/* ====================== right container =================== */
+
+
+
+.rightContainer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.rightContainer .infoBox{
+    display: flex;
+    flex-basis: 50%;
+}
+.infoBox .info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.infoBox .info span{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.infoBox .info span img{
+    width: 25px;
+    margin-right: 15px;
+
+}
+
+/* form */
+.formBox{
+    flex-basis: 50%;
+}
+.formBox .inputBox{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+.formBox .inputBox img{
+    width: 20px;
+    position: absolute;
+    top: 25px;
+    transform: translateY(-50%);
+    right: 10px;
+}
+.formBox .inputBox input{
+    width: 100%;
+    height: 49px;
+    outline: none;
+    border: none;
+    background-color: #F0F2F5;
+    border-radius: 8px;
+    padding: 20px 35px 20px 20px ;
+    font-size: 1rem;
+}
+
+.formBox .inputBox textarea{
+    width: 100%;
+    resize: none;
+    background-color: #F0F2F5;
+    border-radius: 8px;
+    outline: none;
+
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+
+}
+.formBox .work{
+    display: none;
+}
+.formBox .buttonBox{
+    width: 70%;
+    margin: 0 auto;
+}
+.formBox .buttonBox button{
+    height: 59px;
+    width: 60%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* after submit box */
+.detailBox{
+    position: absolute;
+    background-color:#CCEEBC;
+    width: 300px;
+    bottom: -100px;
+    left: 80px;
+    padding: 20px;
+
+}
+.detailBox h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.detailBox p{
+    font-size: 13px;
+}
+.detailBox p span{
+    display: flex;
+    align-items: center;
+}
+.detailBox p span img{
+    width: 20px ;
+    margin-right: 8px;
+}
+
+.detailBox hr{
+    /* position: absolute; */
+    border: none;
+    height: 5px;
+    background-color: #80d459;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+
+
+select{
+    width: 100%;
+    height: 49px;
+    padding: 0 10px;
+    background-color: #F0F2F5;
+    outline: none;
+    border: none;
+    position: relative;
+    border-radius: 8px;
+}
+select>option{
+    height: 49px;
+}
+select::selection{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

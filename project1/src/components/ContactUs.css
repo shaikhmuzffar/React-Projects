@@ -1,0 +1,71 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Allura&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Agdasima', sans-serif;*/
+/* font-family: 'Allura', cursive; */
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+}
+.contactUs .response{
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #aefd96;
+}
+.contactUs{
+    /* background-color: rgba(206, 211, 217,.5); */
+    background-color:rgba(139, 202, 220,.5);
+    background: rgba(182, 192, 204,.5);
+    /* background: url(../assets/images/pattern1.png); */
+    background-size: 300px;
+    padding: 40px 0;
+}
+.contactUs h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.contactUs_form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    row-gap: 20px;
+    border-radius: 10px;
+}
+.contactUs_form input,textarea,button{
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+.contactUs_form input{
+    height: 40px;
+    padding: 5px 10px;
+    border: 2px solid #B6C0CC;
+    outline: none;
+}
+.contactUs_form textarea{
+    padding: 5px 10px;
+    border: 2px solid #B6C0CC;
+    outline: none;
+    resize: none;
+}
+.contactUs_form button{
+    width: 100%;
+    border: 1px solid #B6C0CC;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    text-transform: capitalize;
+    background-color: #B6C0CC;
+    color: #fff;
+    border-radius: 4px;
+
+}
+.contactUs_form button:hover{
+    background-color: #a8bbd3;
+}
